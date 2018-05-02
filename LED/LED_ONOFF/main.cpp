@@ -17,9 +17,15 @@ int main(void)
     while (1) 
     {
 		PORTD = 0x00;
+<<<<<<< .merge_file_a05056
 		_delay_ms(200);
 		PORTD = 0xff;
 		_delay_ms(200);
+=======
+		_delay_ms(100);
+		PORTD = 0xff;
+		_delay_ms(100);
+>>>>>>> .merge_file_a07560
     }
 }
 
