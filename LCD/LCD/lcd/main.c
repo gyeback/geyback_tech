@@ -21,7 +21,7 @@ int main(void)
 	
 	
 	LCD_goto_XY(0,0);
-	LCD_write_string("helloworld");
+	LCD_write_string("helloworld2");
 	
     /* Replace with your application code */
     while (1) 
